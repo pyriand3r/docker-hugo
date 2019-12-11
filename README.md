@@ -1,10 +1,5 @@
 # Hugo Docker Image
 
-[![Docker Automated build](https://img.shields.io/docker/automated/pyriand3r/hugo-builder.svg)](https://store.docker.com/community/images/pyriand3r/hugo-builder)
-[![Docker Build Status](https://img.shields.io/docker/build/pyriand3r/hugo-builder.svg)](https://store.docker.com/community/images/pyriand3r/hugo-builder/builds)
-[![Docker Pulls](https://img.shields.io/docker/pulls/pyriand3r/hugo-builder.svg)](https://store.docker.com/community/images/pyriand3r/hugo-builder)
-[![Image Info](https://images.microbadger.com/badges/image/pyriand3r/hugo-builder.svg)](https://microbadger.com/images/pyriand3r/hugo-builder)
-
 [Hugo](https://gohugo.io/) is a fast and flexible static site generator, written in Go.
 Hugo flexibly works with many formats and is ideal for blogs, docs, portfolios and much more.
 Hugo’s speed fosters creativity and makes building a website fun again.
