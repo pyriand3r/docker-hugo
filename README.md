@@ -67,17 +67,6 @@ alias hugo-server='docker run --rm -it -v $PWD:/src -p 1313:1313 -u hugo jguyoma
 
 Now, you can use `hugo help`, `hugo new foo/bar.md`, `hugo-server -w`, etc.
 
-## Supported tags
-
-The latest builds are:
-
-- [`latest`](https://github.com/jguyomard/docker-hugo/blob/master/Dockerfile)
-- [`extras`](https://github.com/jguyomard/docker-hugo/blob/master/extras/Dockerfile)
-- [`0.55`](https://github.com/jguyomard/docker-hugo/blob/v0.55/Dockerfile)
-- [`0.55-extras`](https://github.com/jguyomard/docker-hugo/blob/v0.55/extras/Dockerfile)
-
-A complete list of available tags can be found on the [docker store page](https://store.docker.com/community/images/jguyomard/hugo-builder/tags).
-
 ## Users
 
 By default, this docker image run as the root user. This makes it easy to use as base image for other Dockerfiles (switching back and forth adds extra layers and is against the current [best practices](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#user) advised by Docker). Most (all official?) base images leave the default user as root.
